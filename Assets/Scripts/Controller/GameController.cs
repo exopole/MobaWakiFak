@@ -20,7 +20,7 @@ namespace Controller
 
             if (_terrainGenerator.Hexagones.Count > 0)
             {
-                HexagoneGenerator hex = _terrainGenerator.Hexagones.OrderBy(h => Vector3.Distance(Player.transform.position, h.transform.position)).ToArray()[0];
+                HexagoneGenerator hex = _terrainGenerator.Hexagones.OrderBy(h => Vector3.Distance(Player.PhysicsTransform.position, h.transform.position)).ToArray()[0];
                 if (hex != null)
                 {
                     Player.Initialization(hex.transform.position);

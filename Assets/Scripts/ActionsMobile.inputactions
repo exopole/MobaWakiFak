@@ -1,0 +1,54 @@
+{
+    "name": "ActionsMobile",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "6056d2e5-d9a5-44db-9ce5-9b3c5c46b878",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "1edd7def-79d5-44b9-8c55-08f562e0c3cc",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Fire",
+                    "type": "Button",
+                    "id": "17c12850-bebd-4203-b291-554820103cbc",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "15a5a949-1b24-421f-bb46-db2e61f9ffc3",
+                    "path": "<Gamepad>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "580da4de-3b4c-4b1a-aa82-4e3354cabc3b",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Fire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

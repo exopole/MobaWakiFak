@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7137534198108421749}
   - component: {fileID: 7137534198108421754}
   - component: {fileID: 8760845672589407733}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Hexagone
   m_TagString: Untagged
   m_Icon: {fileID: 0}
