@@ -30,7 +30,7 @@ namespace Controller.Player
             //Read the movement value
             Vector2 movementInput = _actionsMobile.Player.Move.ReadValue<Vector2>() * -1;
             
-            _behaviourController.AddForce(movementInput);
+            _behaviourController.AddForce(movementInput.normalized);
         }
     }
 }
