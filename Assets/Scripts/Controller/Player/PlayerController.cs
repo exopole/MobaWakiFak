@@ -29,6 +29,7 @@ namespace Controller.Player
         {
             _behaviour = GetComponent<BehaviourController>();
             _spawPoint = spawnPoint;
+            Spawn();
         }
 
         private void Spawn()
@@ -37,7 +38,6 @@ namespace Controller.Player
             Vector3 newPos = _spawPoint;
             newPos.y = _behaviour.CharacterController.height;
             transform.position = newPos;
-            _PhysicsTransform.localPosition = Vector3.up;
             _PhysicsTransform.localEulerAngles = Vector3.zero;
             StartCoroutine(SpawCoroutine());
         }
@@ -45,7 +45,14 @@ namespace Controller.Player
         private IEnumerator SpawCoroutine()
         {
             yield return null;
+            _behaviour.PhysicsRb.velocity = Vector3.zero;
+            _behaviour.PhysicsRb.freezeRotation = true;
+            _PhysicsTransform.localPosition = Vector3.up;
+            yield return null;
             _behaviour.CharacterController.enabled = true;
+            yield return new WaitUntil(() => _behaviour.PhysicsRb.velocity.y < -0.01f);
+            _behaviour.PhysicsRb.freezeRotation = false;
+
 
         }
     }
