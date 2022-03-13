@@ -11,11 +11,25 @@ namespace Controller.Player
     [RequireComponent(typeof(BehaviourController))]
     public class PlayerController : MonoBehaviour
     {
-        [SerializeField] private Transform _PhysicsTransform;
+        #region variables
+        [SerializeField] private Transform _PhysicsTransform, _ExitCannon;
+        
         private BehaviourController _behaviour;
+        private PlayerDetection _detection;
         private Vector3 _spawPoint;
+        private int _currentMunition, _maxMunition;
+
+        #endregion
         
         public Transform PhysicsTransform => _PhysicsTransform;
+
+        #region UnityMethods
+
+        private void Start()
+        {
+            _detection = GetComponentInChildren<PlayerDetection>();
+            _detection.OnTriggerMunition += OnDetectMunition;
+        }
 
         private void Update()
         {
@@ -24,36 +38,56 @@ namespace Controller.Player
                 Spawn();
             }
         }
+        #endregion
 
-        public void Initialization(Vector3 spawnPoint)
+        public void Initialization(Vector3 spawnPoint, int gaugeMax)
         {
             _behaviour = GetComponent<BehaviourController>();
             _spawPoint = spawnPoint;
+            _maxMunition = gaugeMax;
             Spawn();
+        }
+
+        public void Fire()
+        {
+            if (_currentMunition > 0)
+            {
+                Debug.Log("Fire");
+                ParticleController.Instance.Fire(_ExitCannon);
+                _currentMunition = 0;
+            }
+        }
+
+        private void OnDetectMunition(MunitionController munition)
+        {
+            if (_currentMunition >= _maxMunition) return;
+            _currentMunition++;
+            munition.SetUseState(false);
         }
 
         private void Spawn()
         {
+            _currentMunition = 0;
             _behaviour.CharacterController.enabled = false;
             Vector3 newPos = _spawPoint;
             newPos.y = _behaviour.CharacterController.height;
             transform.position = newPos;
-            _PhysicsTransform.localEulerAngles = Vector3.zero;
+            _PhysicsTransform.LookAt(-_PhysicsTransform.position);;
             StartCoroutine(SpawCoroutine());
         }
-
+        
         private IEnumerator SpawCoroutine()
         {
             yield return null;
-            _behaviour.PhysicsRb.velocity = Vector3.zero;
-            _behaviour.PhysicsRb.freezeRotation = true;
+            var physicsRb = _behaviour.PhysicsRb;
+            physicsRb.velocity = Vector3.zero;
+            physicsRb.freezeRotation = true;
             _PhysicsTransform.localPosition = Vector3.up;
             yield return null;
             _behaviour.CharacterController.enabled = true;
             yield return new WaitUntil(() => _behaviour.PhysicsRb.velocity.y < -0.01f);
-            _behaviour.PhysicsRb.freezeRotation = false;
-
-
+            physicsRb.freezeRotation = false;
         }
+
     }
 }

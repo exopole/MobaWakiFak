@@ -12,6 +12,7 @@ namespace Terrain
     public class HexagoneGenerator : MonoBehaviour
     {
         public Texture texture;
+        public bool HasElement;
         private Mesh _mesh;
         private Vector3[] _vertices;
         private Vector2[] _uv;

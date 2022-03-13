@@ -170,6 +170,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &3105064
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -533,6 +534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &27075466
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -732,6 +734,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &29909803
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1348,6 +1351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &47804754
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1458,6 +1462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &52203309
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1821,6 +1826,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &72261923
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2348,6 +2354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &91933105
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2547,6 +2554,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &108315490
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -3669,6 +3677,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &169964694
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -4946,6 +4955,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &213338941
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5145,6 +5155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &223943705
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5508,6 +5519,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &250306362
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -5618,6 +5630,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &251273170
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6309,6 +6322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &263676336
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6419,6 +6433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &263699240
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6618,6 +6633,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &281475108
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6995,6 +7011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &306145044
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -7105,6 +7122,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &307927562
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8747,6 +8765,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &413154236
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -8857,6 +8876,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &413303805
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9056,6 +9076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &433772009
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9419,6 +9440,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &447118916
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -9529,6 +9551,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &448794001
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10323,6 +10346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &497512331
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10433,6 +10457,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &499103817
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10543,6 +10568,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &506015227
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -10653,6 +10679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &506314627
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11344,6 +11371,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &536611635
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11454,6 +11482,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &566371428
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -11892,6 +11921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &579563694
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12166,6 +12196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &589873694
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12693,6 +12724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &608687388
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -12803,6 +12835,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &614672069
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13330,6 +13363,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &629966619
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -13604,6 +13638,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &633896676
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -14023,6 +14058,93 @@ Material:
     - _EmissionColorUI: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColorWithMapUI: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+--- !u!1001 &660695446
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2011655817}
+    m_Modifications:
+    - target: {fileID: 3357746716661526718, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerBot
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.46
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.045000017
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -4.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.27772447
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.96066076
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -147.751
+      objectReference: {fileID: 0}
+    - target: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f83f714c6a88b994bad59609c9df87a5, type: 3}
+--- !u!4 &660695447 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3357746716661526719, guid: f83f714c6a88b994bad59609c9df87a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 660695446}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &660695448 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3357746716661526712, guid: f83f714c6a88b994bad59609c9df87a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 660695446}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd92a404f8940e996065389238b056f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!21 &660908291
 Material:
   serializedVersion: 6
@@ -14412,6 +14534,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &664337134
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15028,6 +15151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &693369233
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15302,6 +15426,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &700237524
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15669,6 +15794,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &708657333
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16299,6 +16425,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &745033681
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16409,6 +16536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &745422706
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16847,6 +16975,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &776256768
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17046,6 +17175,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &785451616
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17156,6 +17286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &802581538
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17355,6 +17486,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &808247319
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -17554,6 +17686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &819677691
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18156,6 +18289,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &826386824
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18444,6 +18578,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &833172797
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18718,6 +18853,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &837972656
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -18828,6 +18964,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &839471010
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19191,6 +19328,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &840221324
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19390,6 +19528,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &843183977
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19664,6 +19803,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &856660852
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -19938,6 +20078,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &881896816
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20100,6 +20241,7 @@ GameObject:
   m_Component:
   - component: {fileID: 884488708}
   - component: {fileID: 884488709}
+  - component: {fileID: 884488710}
   m_Layer: 0
   m_Name: '[Managers]'
   m_TagString: Untagged
@@ -20119,7 +20261,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &884488709
 MonoBehaviour:
@@ -20133,7 +20275,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 404ed80f31414d2790198d0c3bf42fb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 1004084452}
+  Player: {fileID: 1581541190}
+  Bot: {fileID: 660695448}
+  _Settings: {fileID: 11400000, guid: d065b929488ee0549be617803fda657e, type: 2}
+  _MunitionSo: {fileID: 11400000, guid: 58661f633af20904eb2af45044a681b8, type: 2}
+--- !u!114 &884488710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 884488707}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa182861c54b44cc8bc9fb0e38d33742, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _FireParticle: {fileID: 2699105102528701815, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+    type: 3}
 --- !u!1 &887630041
 GameObject:
   m_ObjectHideFlags: 0
@@ -20181,6 +20340,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &887630044
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20291,6 +20451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &903442088
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20401,6 +20562,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &909958650
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20511,6 +20673,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &916498246
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -20710,6 +20873,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &932688879
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21320,6 +21484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &977324110
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21800,98 +21965,6 @@ Mesh:
     offset: 0
     size: 0
     path: 
---- !u!1 &1004084450
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1004084451}
-  - component: {fileID: 1004084452}
-  - component: {fileID: 1004084453}
-  - component: {fileID: 1004084454}
-  - component: {fileID: 1004084455}
-  m_Layer: 8
-  m_Name: Player
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1004084451
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004084450}
-  m_LocalRotation: {x: -0, y: -0.96066076, z: -0, w: 0.27772447}
-  m_LocalPosition: {x: 5.22, y: 0.533, z: 6.05}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 1933949392}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: -147.751, z: 0}
---- !u!114 &1004084452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004084450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9fd92a404f8940e996065389238b056f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _PhysicsTransform: {fileID: 1933949392}
---- !u!114 &1004084453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004084450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6fd89d4fc31758d4897c5f3fae335029, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _CharacterController: {fileID: 1004084455}
-  _Speed: 5
---- !u!114 &1004084454
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004084450}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 479c2686ec8c41659641e7d6b518374c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!143 &1004084455
-CharacterController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1004084450}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 1
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1017223716
 GameObject:
   m_ObjectHideFlags: 0
@@ -21956,7 +22029,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &1017678043
 Mesh:
@@ -22347,6 +22420,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1030171661
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -22949,6 +23023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1047558302
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23223,6 +23298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1068477900
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23333,6 +23409,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1073225908
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23532,6 +23609,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1082448593
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23806,6 +23884,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1104332673
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -23916,6 +23995,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1107005934
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -24537,6 +24617,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1123345245
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25392,6 +25473,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1148824981
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -25919,6 +26001,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1189692107
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26029,6 +26112,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1190719030
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26139,6 +26223,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1199358177
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26413,6 +26498,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1206862526
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26865,6 +26951,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1221384389
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27064,6 +27151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1229036904
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27263,6 +27351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1237118541
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27552,6 +27641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1264325635
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27751,6 +27841,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1267467747
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -27861,6 +27952,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1276776819
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28477,6 +28569,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1288201442
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28587,6 +28680,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1293700782
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28697,6 +28791,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1310402397
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -29969,6 +30064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1359277656
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -30927,6 +31023,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1420082953
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31411,6 +31508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1439646554
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -31863,6 +31961,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1462164768
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -32821,6 +32920,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1540624207
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33259,6 +33359,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1559945079
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33369,6 +33470,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1569014968
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33568,6 +33670,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1577485194
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33809,6 +33912,93 @@ Material:
     - _EmissionColorUI: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColorWithMapUI: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+--- !u!1001 &1581541188
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 2011655817}
+    m_Modifications:
+    - target: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.6755204
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.045000017
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.452794
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.27772447
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.96066076
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -147.751
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5504364498502373127, guid: f842382314651f94bb83acedcf4114bf,
+        type: 3}
+      propertyPath: m_Name
+      value: PlayerContoller
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f842382314651f94bb83acedcf4114bf, type: 3}
+--- !u!4 &1581541189 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5504364498502373126, guid: f842382314651f94bb83acedcf4114bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1581541188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1581541190 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5504364498502373121, guid: f842382314651f94bb83acedcf4114bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1581541188}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fd92a404f8940e996065389238b056f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1585772053
 GameObject:
   m_ObjectHideFlags: 0
@@ -33856,6 +34046,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1585772056
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -33966,6 +34157,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1590882494
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34076,6 +34268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1593265671
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34186,6 +34379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1596459376
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34460,6 +34654,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1605581866
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34659,6 +34854,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1619812609
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34769,6 +34965,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1621204070
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -34879,6 +35076,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1623450080
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35153,6 +35351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1644564774
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35680,6 +35879,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1671713674
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -35954,6 +36154,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1680060761
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36228,6 +36429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1702782484
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -36427,6 +36629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1707470864
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37296,6 +37499,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1731124838
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -37406,6 +37610,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1734345172
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38350,6 +38555,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1774545688
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -38877,6 +39083,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1821608772
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39329,6 +39536,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1833102608
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39528,6 +39736,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1852880230
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39774,7 +39983,7 @@ RectTransform:
   - {fileID: 1252250771}
   - {fileID: 406488863}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -39828,6 +40037,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1877541667
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -39938,6 +40148,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1879253471
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -40807,6 +41018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1906793445
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41095,6 +41307,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1929801161
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41158,151 +41371,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1038358491}
---- !u!1001 &1933949391
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 1004084451}
-    m_Modifications:
-    - target: {fileID: 560728162613143705, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 1035557147932386277, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 2101480896618943038, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 3077616636684125376, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5948364819411993709, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6055348666614648707, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7813564006235948715, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_Name
-      value: SmallTank
-      objectReference: {fileID: 0}
-    - target: {fileID: 7813564006235948715, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-        type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 65620b9bb482dd3489cba0f1334f3f6d, type: 3}
---- !u!4 &1933949392 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7432218926111038481, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1933949391}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1933949393 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7813564006235948715, guid: 65620b9bb482dd3489cba0f1334f3f6d,
-    type: 3}
-  m_PrefabInstance: {fileID: 1933949391}
-  m_PrefabAsset: {fileID: 0}
---- !u!65 &1933949394
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933949393}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &1933949395
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1933949393}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!43 &1936735693
 Mesh:
   m_ObjectHideFlags: 0
@@ -41467,6 +41535,12 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!4 &1939477495 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5313569596942059906, guid: f83f714c6a88b994bad59609c9df87a5,
+    type: 3}
+  m_PrefabInstance: {fileID: 660695446}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1971052111
 GameObject:
   m_ObjectHideFlags: 0
@@ -41514,6 +41588,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1971052114
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41624,6 +41699,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1974918474
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41734,6 +41810,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1978682921
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41844,6 +41921,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1979759433
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -41954,6 +42032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &1988556849
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42645,6 +42724,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &2007771331
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42708,6 +42788,38 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 1544257376}
+--- !u!1 &2011655816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2011655817}
+  m_Layer: 0
+  m_Name: Players
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2011655817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2011655816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 2.5444794, y: 0.48799998, z: -1.402794}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 660695447}
+  - {fileID: 1581541189}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!21 &2018329754
 Material:
   serializedVersion: 6
@@ -43022,6 +43134,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &2034272342
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -43905,6 +44018,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &2095968235
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45416,6 +45530,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &2127996799
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45704,6 +45819,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   texture: {fileID: 10309, guid: 0000000000000000f000000000000000, type: 0}
+  HasElement: 0
 --- !u!23 &2139124495
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -45856,3 +45972,72 @@ Material:
     - _EmissionColorUI: {r: 0, g: 0, b: 0, a: 1}
     - _EmissionColorWithMapUI: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
+--- !u!1001 &5095402743376007139
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1939477495}
+    m_Modifications:
+    - target: {fileID: 2414105728437346658, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_Name
+      value: ExitCannon (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097989376250210286, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097989376250210286, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.008
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097989376250210286, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.359
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097989376250210286, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.492
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097989376250210286, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097989376250210286, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097989376250210286, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097989376250210286, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097989376250210286, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097989376250210286, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3097989376250210286, guid: 522ba8049fa927c46b15bdfc88e8a3f4,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 522ba8049fa927c46b15bdfc88e8a3f4, type: 3}

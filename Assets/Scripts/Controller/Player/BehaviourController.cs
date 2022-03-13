@@ -27,16 +27,12 @@ public class BehaviourController : MonoBehaviour
     public Transform PhysicsTransform => _physicsTransform;
 
     #endregion
-    
-
 
     private void Awake()
     {
         _physicsRb = GetComponentInChildren<Rigidbody>();
         _physicsTransform = _physicsRb.transform;
     }
-
-
 
     public void AddForce(Vector2 direction)
     {
