@@ -2,6 +2,7 @@
 using System.Collections;
 using Terrain;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.PlayerLoop;
 using UnityEngine.Serialization;
 using UnityEngine.UIElements;
@@ -13,13 +14,17 @@ namespace Controller.Player
     {
         #region variables
         [SerializeField] private Transform _PhysicsTransform, _ExitCannon;
-        
+
+
         private BehaviourController _behaviour;
         private PlayerDetection _detection;
         private Vector3 _spawPoint;
         private int _currentMunition, _maxMunition;
 
         #endregion
+        public Transform ExitCannon => _ExitCannon;
+
+        public int CurrentMunition => _currentMunition;
         
         public Transform PhysicsTransform => _PhysicsTransform;
 
@@ -52,8 +57,8 @@ namespace Controller.Player
         {
             if (_currentMunition > 0)
             {
-                Debug.Log("Fire");
                 ParticleController.Instance.Fire(_ExitCannon);
+                GameController.Instance.Fire(this);
                 _currentMunition = 0;
             }
         }

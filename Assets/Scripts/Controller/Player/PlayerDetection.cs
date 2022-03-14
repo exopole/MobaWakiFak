@@ -12,7 +12,6 @@ namespace Controller.Player
             MunitionController munition = other.GetComponent<MunitionController>();
             if (munition)
             {
-                Debug.Log(munition.name);
                 OnTriggerMunition?.Invoke(munition);
             }
         }

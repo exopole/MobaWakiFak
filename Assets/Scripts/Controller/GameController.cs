@@ -10,17 +10,31 @@ namespace Controller
 {
     public class GameController : MonoBehaviour
     {
+        public static GameController Instance;
         public PlayerController Player, Bot;
         [SerializeField] private GameSettings _Settings;
         [SerializeField] private MunitionSo _MunitionSo;
         [SerializeField] private Transform _MunitionsParent;
-        private TerrainGenerator _terrainGenerator;
         
+        private TerrainGenerator _terrainGenerator;
+        private ProjectilesController _projectilesController;
+
+        #region Unity Methods
+        private void Awake()
+        {
+            if (Instance == null)
+            {
+                Instance = this;
+            }
+        }
+
         private IEnumerator Start()
         {
+            _projectilesController = FindObjectOfType<ProjectilesController>();
             _terrainGenerator = FindObjectOfType<TerrainGenerator>();
             _terrainGenerator.SetupTerrain();
             _terrainGenerator.RemoveRandomeHexagones(_Settings.NumberOfHole);
+            
             yield return null;
             if (_terrainGenerator.Hexagones.Count < 0)
             {
@@ -35,7 +49,13 @@ namespace Controller
 
             AddMunition(_Settings.NumberOfMunition);
         }
+        #endregion
 
+        public void Fire(PlayerController player)
+        {
+            _projectilesController.Fire(player);
+        }
+        
         private void InitializePlayer(PlayerController player)
         {
             HexagoneGenerator hexSpawnPlayer = _terrainGenerator.Hexagones.Where(h => h.gameObject.activeInHierarchy).OrderBy(h => Vector3.Distance(player.PhysicsTransform.position, h.transform.position)).ToArray()[0];
