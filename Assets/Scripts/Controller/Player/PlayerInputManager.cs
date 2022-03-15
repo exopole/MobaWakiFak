@@ -37,12 +37,10 @@ namespace Controller.Player
             Vector2 movementInput = _actionsMobile.Player.Move.ReadValue<Vector2>() * -1;
             _behaviourController.AddForce(movementInput.normalized);
             
-            
             if (_actionsMobile.Player.Fire.triggered)
             {
                 _playerController.Fire();
             }
-            
         }
     }
 }

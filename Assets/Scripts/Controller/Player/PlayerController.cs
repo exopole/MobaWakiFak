@@ -14,7 +14,7 @@ namespace Controller.Player
     {
         #region variables
 
-        public UnityAction OnAddMunition;
+        public UnityAction OnAddMunition, OnSpawn;
         
         [SerializeField] private Transform _PhysicsTransform, _ExitCannon;
 
@@ -99,6 +99,7 @@ namespace Controller.Player
             transform.position = newPos;
             _PhysicsTransform.LookAt(-_PhysicsTransform.position);;
             StartCoroutine(SpawCoroutine());
+            OnSpawn?.Invoke();
         }
         
         private IEnumerator SpawCoroutine()

@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 5883267841621745710, guid: ff36f3be12d1f39449be7d48d7b7d7a6,
         type: 3}
       propertyPath: m_Name
-      value: Player
+      value: PlayerBot
       objectReference: {fileID: 0}
     - target: {fileID: 5883267841621745711, guid: ff36f3be12d1f39449be7d48d7b7d7a6,
         type: 3}

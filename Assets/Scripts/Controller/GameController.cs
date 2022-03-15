@@ -18,10 +18,13 @@ namespace Controller
         [SerializeField] private Transform _MunitionsParent;
         
         private TerrainGenerator _terrainGenerator;
+        private IAController _ia;
         private ProjectilesController _projectilesController;
         private Timer _timer;
         private Gauge _gauge;
         private EndGame _endGame;
+        
+        public TerrainGenerator TerrainGenerator => _terrainGenerator;
 
         #region Unity Methods
         private void Awake()
@@ -61,6 +64,11 @@ namespace Controller
             {
                 _endGame = FindObjectOfType<EndGame>(true);
             }
+
+            if (!_ia)
+            {
+                _ia = FindObjectOfType<IAController>(true);
+            }
             Initialize();
         }
 
@@ -80,7 +88,10 @@ namespace Controller
         public void Fire(PlayerController player)
         {
             _projectilesController.Fire(player);
-            ResetMunitionPlayer();
+            if (player == Player)
+            {
+                ResetMunitionPlayer();
+            }
         }
 
         public void ResetMunitionPlayer()
@@ -148,7 +159,9 @@ namespace Controller
 
             yield return null;
             _timer.StartTimer();
-            
+
+            yield return null;
+            _ia.Initialize(_terrainGenerator.Hexagones);
         }
 
         private IEnumerator UseMunitionCoroutine()

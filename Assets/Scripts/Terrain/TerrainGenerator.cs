@@ -11,6 +11,7 @@ public class TerrainGenerator : MonoBehaviour
     public HexagoneGenerator HexagonePrefab;
     public float radius = 10;
     private List<HexagoneGenerator> _hexagones = new List<HexagoneGenerator>();
+    private Dictionary<float, Dictionary<float, HexagoneGenerator>> _map = new Dictionary<float, Dictionary<float, HexagoneGenerator>>();
 
     public List<HexagoneGenerator> Hexagones => _hexagones;
 
@@ -38,6 +39,8 @@ public class TerrainGenerator : MonoBehaviour
             lineCount++;
             zndex-=1.5f;
         }
+        
+        SetupNeighbors();
     }
 
     public void RemoveRandomeHexagones(int range = 1)
@@ -93,11 +96,90 @@ public class TerrainGenerator : MonoBehaviour
         {
             return;
         }
-        HexagoneGenerator hexagone = Instantiate(HexagonePrefab, this.transform, true);
-        hexagone.transform.position = hexagonePos;
-        _hexagones.Add(hexagone);
+        var hexagon = Instantiate(HexagonePrefab, transform, true);
+        hexagon.transform.position = hexagonePos;
+        _hexagones.Add(hexagon);
+        AddHexagonInMap(x, z, hexagon);
 #if UNITY_EDITOR
-        hexagone.SetupMesh();
+        hexagon.SetupMesh();
 #endif
+    }
+
+    private void AddHexagonInMap(float x, float z, HexagoneGenerator hex)
+    {
+        if (!_map.ContainsKey(x) || _map[x] == null)
+        {
+            _map[x] = new Dictionary<float, HexagoneGenerator>
+            {
+                [z] = hex
+            };
+            return;
+        }
+
+        _map[x][z] = hex;
+    }
+
+    private void SetupNeighbors()
+    {
+        foreach (var line in _map)
+        {
+            foreach (var depth in line.Value)
+            {
+                depth.Value.NE = FindNE(line.Key, depth.Key);
+                depth.Value.E = FindE(line.Key, depth.Key);
+                depth.Value.SE = FindSE(line.Key, depth.Key);
+                depth.Value.SO = FindSO(line.Key, depth.Key);
+                depth.Value.O = FindO(line.Key, depth.Key);
+                depth.Value.NO = FindNO(line.Key, depth.Key);
+            }
+        }
+    }
+
+    private HexagoneGenerator FindNE(float x, float z)
+    {
+        float newX = x + 1;
+        float newZ = z + 1.5f;
+        return GetHexagonFromMap(newX, newZ);
+    }
+    private HexagoneGenerator FindE(float x, float z)
+    {
+        float newX = x + 2;
+        float newZ = z;
+        return GetHexagonFromMap(newX, newZ);
+    }
+    private HexagoneGenerator FindSE(float x, float z)
+    {
+        float newX = x + 1;
+        float newZ = z - 1.5f;
+        return GetHexagonFromMap(newX, newZ);
+    }
+    private HexagoneGenerator FindSO(float x, float z)
+    {
+        float newX = x - 1;
+        float newZ = z - 1.5f;
+        return GetHexagonFromMap(newX, newZ);
+    }
+    private HexagoneGenerator FindO(float x, float z)
+    {
+        float newX = x - 2;
+        float newZ = z ;
+        return GetHexagonFromMap(newX, newZ);
+    }
+    private HexagoneGenerator FindNO(float x, float z)
+    {
+        float newX = x - 1;
+        float newZ = z + 1.5f;
+        return GetHexagonFromMap(newX, newZ);
+    }
+    
+
+    private HexagoneGenerator GetHexagonFromMap(float x, float z)
+    {
+        if (!_map.ContainsKey(x) || !_map[x].ContainsKey(z))
+        {
+            return null;
+        }
+
+        return _map[x][z];
     }
 }

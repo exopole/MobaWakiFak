@@ -17,6 +17,8 @@ namespace Terrain
         private Vector3[] _vertices;
         private Vector2[] _uv;
         private int[] _triangles;
+
+        public HexagoneGenerator NE, E, SE, SO, O, NO;
         // Start is called before the first frame update
         void Start()
         {
@@ -32,6 +34,12 @@ namespace Terrain
 
             CreateShape();
             UpdateMesh();
+        }
+
+        public Vector2 GetPosition2D()
+        {
+            var position = transform.position;
+            return new Vector2(position.x, position.z);
         }
 
         private void UpdateMesh()
@@ -95,9 +103,6 @@ namespace Terrain
             #region finalize
  
             #endregion
-        
-
-        
         }
     }
 }
