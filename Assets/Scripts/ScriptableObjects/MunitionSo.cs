@@ -45,6 +45,17 @@ namespace ScriptableObjects
             return result;
         }
 
+        public void Clear()
+        {
+            foreach (var pool in _munitionPool)
+            {
+                foreach (var munition in pool.Value)
+                {
+                    munition.SetUseState(false, false);
+                }
+            }
+        }
+
         private MunitionController AddNewMunitionType(Vector3 position, MunitionController prefab, Transform parent, UnityAction onUse = null)
         {
             var newMunition = NewMunition(position, prefab, parent);

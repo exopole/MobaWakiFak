@@ -62,6 +62,9 @@ public class TerrainGenerator : MonoBehaviour
                 DestroyImmediate(child.gameObject);
             }
         }
+        
+        _hexagones.Clear();
+        
     }
 
     public List<HexagoneGenerator> GetRandomHex(int range)

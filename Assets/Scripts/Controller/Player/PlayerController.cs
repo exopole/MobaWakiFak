@@ -13,13 +13,18 @@ namespace Controller.Player
     public class PlayerController : MonoBehaviour
     {
         #region variables
+
+        public UnityAction OnAddMunition;
+        
         [SerializeField] private Transform _PhysicsTransform, _ExitCannon;
 
-
         private BehaviourController _behaviour;
+
+        public BehaviourController Behaviour => _behaviour;
+
         private PlayerDetection _detection;
         private Vector3 _spawPoint;
-        private int _currentMunition, _maxMunition;
+        private int _currentMunition, _maxMunition, _score;
 
         #endregion
         public Transform ExitCannon => _ExitCannon;
@@ -28,12 +33,19 @@ namespace Controller.Player
         
         public Transform PhysicsTransform => _PhysicsTransform;
 
+        public int Score
+        {
+            get => _score;
+            set => _score = value;
+        }
+
         #region UnityMethods
 
         private void Start()
         {
             _detection = GetComponentInChildren<PlayerDetection>();
             _detection.OnTriggerMunition += OnDetectMunition;
+            _detection.OnCollisionProjectile += OnCollisionProjectile;
         }
 
         private void Update()
@@ -68,11 +80,19 @@ namespace Controller.Player
             if (_currentMunition >= _maxMunition) return;
             _currentMunition++;
             munition.SetUseState(false);
+            OnAddMunition?.Invoke();
         }
 
-        private void Spawn()
+        private void OnCollisionProjectile(ProjectileBehaviour projectileBehaviour)
+        {
+            _behaviour.Explosion(projectileBehaviour.transform.forward, projectileBehaviour.Puissance);
+            StartCoroutine(ScoreOrNotScore(projectileBehaviour.Player));
+        }
+
+        public void Spawn()
         {
             _currentMunition = 0;
+            GameController.Instance.ResetMunitionPlayer();
             _behaviour.CharacterController.enabled = false;
             Vector3 newPos = _spawPoint;
             newPos.y = _behaviour.CharacterController.height;
@@ -87,11 +107,22 @@ namespace Controller.Player
             var physicsRb = _behaviour.PhysicsRb;
             physicsRb.velocity = Vector3.zero;
             physicsRb.freezeRotation = true;
-            _PhysicsTransform.localPosition = Vector3.up;
+            _PhysicsTransform.localPosition = Vector3.up *2;
             yield return null;
             _behaviour.CharacterController.enabled = true;
             yield return new WaitUntil(() => _behaviour.PhysicsRb.velocity.y < -0.01f);
             physicsRb.freezeRotation = false;
+        }
+
+        private IEnumerator ScoreOrNotScore(PlayerController playerSource)
+        {
+            yield return null;
+            yield return new WaitUntil(() => !_behaviour.AreUnderExplosionEffect);
+            if (_behaviour.PhysicsRb.velocity.y < -0.01f)
+            {
+                yield return new WaitForSeconds(1);
+                playerSource.Score++;
+            }
         }
 
     }

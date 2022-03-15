@@ -26,14 +26,17 @@ namespace Controller
         /// Set inuse bool and call action
         /// </summary>
         /// <param name="state"></param>
-        public Task SetUseState(bool state)
+        public Task SetUseState(bool state, bool invokeOnStoppingUse = true)
         {
             _IsInUse = state;
             gameObject.SetActive(state);
 
             if (state) return null;
-            
-            OnStoppingUse?.Invoke();
+
+            if (invokeOnStoppingUse)
+            {
+                OnStoppingUse?.Invoke();
+            }
             
             // put after for the case it spawn in the same hexagon
             if (HexCurrent != null)

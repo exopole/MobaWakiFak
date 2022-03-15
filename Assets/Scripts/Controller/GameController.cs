@@ -4,6 +4,7 @@ using System.Linq;
 using Controller.Player;
 using ScriptableObjects;
 using Terrain;
+using UI;
 using UnityEngine;
 
 namespace Controller
@@ -18,6 +19,9 @@ namespace Controller
         
         private TerrainGenerator _terrainGenerator;
         private ProjectilesController _projectilesController;
+        private Timer _timer;
+        private Gauge _gauge;
+        private EndGame _endGame;
 
         #region Unity Methods
         private void Awake()
@@ -28,32 +32,70 @@ namespace Controller
             }
         }
 
-        private IEnumerator Start()
+        private void Start()
         {
-            _projectilesController = FindObjectOfType<ProjectilesController>();
-            _terrainGenerator = FindObjectOfType<TerrainGenerator>();
-            _terrainGenerator.SetupTerrain();
-            _terrainGenerator.RemoveRandomeHexagones(_Settings.NumberOfHole);
-            
-            yield return null;
-            if (_terrainGenerator.Hexagones.Count < 0)
+            Player.OnAddMunition += () => _gauge.AddMunition(percentageFill: (float)Player.CurrentMunition / _Settings.GaugeMax);
+            if (!_projectilesController)
             {
-                Debug.LogError("GameController => Terrain generation failed");
-                yield break;
+                _projectilesController = FindObjectOfType<ProjectilesController>();
+            }
+
+            if (!_timer)
+            {
+                _timer = FindObjectOfType<Timer>();
+                _timer.OnEndTimer += EndGame;
+            }
+
+            if (!_terrainGenerator)
+            {
+                _terrainGenerator = FindObjectOfType<TerrainGenerator>();
             }
             
-            InitializePlayer(player:Player);
-            InitializePlayer(player:Bot);
+            
+            if (!_gauge)
+            {
+                _gauge = FindObjectOfType<Gauge>();
+            }
 
-            yield return null;
-
-            AddMunition(_Settings.NumberOfMunition);
+            if (!_endGame)
+            {
+                _endGame = FindObjectOfType<EndGame>(true);
+            }
+            Initialize();
         }
+
+
         #endregion
+        private void EndGame()
+        {
+            _endGame.gameObject.SetActive(true);
+            Player.StopAllCoroutines();
+            Player.Behaviour.StopAllCoroutines();
+            Player.Spawn();
+            Bot.StopAllCoroutines();
+            Bot.Behaviour.StopAllCoroutines();
+            Bot.Spawn();
+        }
 
         public void Fire(PlayerController player)
         {
             _projectilesController.Fire(player);
+            ResetMunitionPlayer();
+        }
+
+        public void ResetMunitionPlayer()
+        {
+            _gauge.ResetMunition();
+        }
+
+        public void Initialize()
+        {
+            _terrainGenerator.SetupTerrain();
+            _terrainGenerator.RemoveRandomeHexagones(_Settings.NumberOfHole);
+
+            _endGame.gameObject.SetActive(false);
+
+            StartCoroutine(InitializeCoroutine());
         }
         
         private void InitializePlayer(PlayerController player)
@@ -85,6 +127,28 @@ namespace Controller
         private void UseMunition()
         {
             StartCoroutine(UseMunitionCoroutine());
+        }
+
+        private IEnumerator InitializeCoroutine()
+        {
+            yield return null;
+            if (_terrainGenerator.Hexagones.Count < 0)
+            {
+                Debug.LogError("GameController => Terrain generation failed");
+                yield break;
+            }
+            
+            InitializePlayer(player:Player);
+            InitializePlayer(player:Bot);
+
+            yield return null;
+
+            _MunitionSo.Clear();
+            AddMunition(_Settings.NumberOfMunition);
+
+            yield return null;
+            _timer.StartTimer();
+            
         }
 
         private IEnumerator UseMunitionCoroutine()

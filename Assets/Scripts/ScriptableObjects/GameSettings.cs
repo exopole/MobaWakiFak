@@ -6,6 +6,9 @@ namespace ScriptableObjects
     public class GameSettings : ScriptableObject
     {
         [SerializeField] private int _NumberOfHole, _NumberOfMunition, _GaugeMax;
+        [SerializeField] private AnimationCurve _EffectExplosionCurve;
+
+        public AnimationCurve EffectExplosionCurve => _EffectExplosionCurve;
 
         public int NumberOfHole => _NumberOfHole;
 

@@ -33,7 +33,6 @@ namespace Controller
             {
                 projectile = Instantiate(_ProjectilePrefab, _ProjectileParent);
             }
-
             return projectile;
         }
     }
