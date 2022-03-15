@@ -62,6 +62,7 @@ namespace Controller.Player
             _behaviour = GetComponent<BehaviourController>();
             _spawPoint = spawnPoint;
             _maxMunition = gaugeMax;
+            _score = 0;
             Spawn();
         }
 

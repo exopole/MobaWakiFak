@@ -59,6 +59,18 @@ namespace Controller.Player
             InitializeNewPath();
         }
 
+        public void Stop()
+        {
+            _isInitialize = false;
+            _fireProcess = false;
+        }
+
+        public void Clean()
+        {
+            _map.Clear();
+            _path.Clear();
+        }
+
         private Vector2 GetPosition2D()
         {
             var position = transform.position;
@@ -75,7 +87,13 @@ namespace Controller.Player
                 return;
             }
 
-            _path = _pathFinding.FindPath(hexagons[0], hexagons.First(h => h.HasElement && h != hexagons[0]));
+            var withMunition = hexagons.FirstOrDefault(h => h.HasElement && h != hexagons[0]);
+            if (withMunition == null)
+            {
+                return;
+            }
+
+            _path = _pathFinding.FindPath(hexagons[0], withMunition);
         }
 
         private void GoTo()

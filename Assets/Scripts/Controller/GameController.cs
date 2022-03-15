@@ -82,6 +82,9 @@ namespace Controller
             Player.Spawn();
             Bot.StopAllCoroutines();
             Bot.Behaviour.StopAllCoroutines();
+            _ia.Stop();
+            _ia.StopAllCoroutines();
+            _ia.Clean();
             Bot.Spawn();
         }
 
